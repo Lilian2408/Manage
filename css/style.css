@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-x: 700px;
+    background-position-y: -70px;
+    background-size: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+.menu{
+    display: none;
+}
+
+nav button,
+main button {
+    background-color: #f25f3a;
+    border-radius: 30px;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    box-shadow: 5px 10px 15px #f57f61;
+}
+
+/* nav img {
+    width: 400px;
+} */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+main .contain {
+    width: 40%;
+}
+
+
+
+main h1 {
+    font-size: 55px;
+    font-weight: 500;
+    font-weight: bold;
+    color: rgb(8, 8, 28);
+}
+
+main p {
+    font-size: 20px;
+    margin: 20px 0px;
+    color: rgb(117, 115, 115);
+}
+
+#manage {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 70px;
+
+}
+
+#manage .manage {
+    width: 40%;
+}
+
+#manage .manage h1 {
+    font-size: 50px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #242d52;
+
+
+}
+
+#manage .manage p {
+    font-size: 20px;
+    margin: 50px 0;
+    font-weight: 400;
+    color: rgb(117, 115, 115);
+}
+
+#manage .texts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    width: 40%;
+
+}
+
+#manage .texts .btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#manage .texts p {
+    margin-left: 70px;
+    margin-top: 7px;
+    color: hsl(227, 12%, 61%);
+    line-height: 1.6;
+}
+
+#manage .text button {
+    background-color: #f25f3a;
+    border-radius: 25px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+#manage .text h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#testominals .container h1 {
+    font-size: 30px;
+    color: rgb(8, 8, 28);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#testominals .tests {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px;
+    text-align: center;
+    gap: 20px;
+}
+
+#testominals .test h4 {
+    font-size: 18px;
+    margin: 10px 0;
+
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-dot {
+    padding: 2px;
+    border-radius: 50px;
+}
+
+#testominals img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -35px;
+}
+
+#testominals .name {
+    background-color: #fafafa;
+    padding: 2rem 1rem 1rem;
+}
+
+#testominals .test {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#testominals .test p {
+    font-size: 14px;
+    text-align: center;
+    color: hsl(227, 12%, 61%);
+}
+
+#testominals .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+#testominals button {
+    background-color: #f25f3a;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    box-shadow: 5px 10px 15px #f57f61;
+}
+
+#simplify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f25f3a;
+    padding: 3rem 5rem;
+}
+
+#simplify h1 {
+    color: white;
+    font-size: 45px;
+    width: 55%;
+}
+
+#simplify button {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+
+footer {
+    background-color: #1d1e25;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .foot1 {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .foot1 a {
+    display: inline;
+    margin: 30px 10px;
+}
+
+footer .foot2 {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+footer a,
+footer p {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+
+footer img {
+    filter: invert(0.1);
+    margin-bottom: 10px;
+}
+
+footer .foot3 input {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+footer .foot3 .btn2 {
+    background-color: #f25f3a;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width: 992px) {
+    main h1 {
+        font-size: 30px;
+    }
+
+    main p {
+        font-size: 18px;
+    }
+
+    main .contain {
+        width: 60%;
+    }
+
+    main.images {
+        width: 40%;
+    }
+
+    main button,
+    nav button,
+    #testominals button,
+    #simplify button {
+        padding: 8px 22px;
+    }
+
+    #manage .manage {
+        width: 55%;
+    }
+
+    #manage .manage h1 {
+        font-size: 40px;
+    }
+
+    #manage .manage p {
+        font-size: 18px;
+    }
+
+    #manage .text h2 {
+        font-size: 18px;
+    }
+
+    #manage .texts p {
+        font-size: 14px;
+    }
+
+    #testominals .container h1 {
+        font-size: 25px;
+    }
+
+    #testominals img {
+        width: 25%;
+    }
+
+    #testominals .test h4 {
+        font-size: 16px;
+    }
+
+    #testominals .test p {
+        font-size: 12px;
+    }
+
+    #simplify h1 {
+        font-size: 40px;
+    }
+
+    footer .foot1 {
+        font-size: 14px;
+    }
+
+    footer .foot2 {
+        font-size: 14px;
+    }
+
+    footer .foot2 {
+        gap: 75px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    main h1 {
+        font-size: 25px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+
+    main.images {
+        width: 30%;
+    }
+    nav ul{
+        gap: 10px;
+    }
+    nav{
+        padding: 30px 20px;
+    }
+
+    main button,
+    nav button,
+    #testominals button,
+    #simplify button {
+        padding: 6px 20px;
+    }
+     nav button{
+        display: none;
+     }
+
+    #manage {
+        padding: 100px 30px;
+    }
+
+    #manage .manage h1 {
+        font-size: 30px;
+    }
+
+    #manage .manage p {
+        font-size: 16px;
+    }
+
+    #manage .text h2 {
+        font-size: 16px;
+    }
+
+    #manage .texts p {
+        font-size: 12px;
+    }
+
+    #testominals .container h1 {
+        font-size: 20px;
+    }
+
+    #testominals img {
+        width: 20%;
+    }
+
+    #testominals .test h4 {
+        font-size: 14px;
+    }
+
+    #testominals .test p {
+        font-size: 10px;
+    }
+
+    #simplify {
+        padding: 3rem;
+    }
+
+    #simplify h1 {
+        font-size: 30px;
+    }
+
+    footer .foot1 {
+        font-size: 12px;
+    }
+
+    footer .foot2 {
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width:576px) {
+    main h1{
+        font-size: 20px;
+    }
+    main{
+        flex-direction: column-reverse;
+        padding: 40px 20px;
+    }
+    main .contain{
+        width: 90%;
+        text-align: center;
+    }
+    #manage{
+        flex-direction: column;
+        padding: 100px 10px;
+    }
+    nav ul{
+        position: fixed;
+        flex-direction: column;
+        gap: 30px;
+        background-color: white;
+        border: 1px solid gray;
+        width: 70%;
+        top: -35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        padding: 1rem;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+
+    #manage .texts p{
+        margin-left: 0;
+    }
+    #manage .manage{
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu{
+        display: block;
+        font-size: 22px;
+    }
+    .ri-close-circle-line{
+        display: none;
+    }
+
+    #manage .texts{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #manage .texts .btn{
+        background-color: #ee9b87;
+        border-radius: 50px 0 0 50px;
+        color: white;
+    }
+
+    #simplify{
+        flex-direction: column;
+    }
+    #simplify h1{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer .foot2{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .foot2{
+        gap: 40px;
+    }
+    footer .foot1{
+        align-items: center;
+        margin-bottom: 50px;
+    }
+}
